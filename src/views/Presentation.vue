@@ -42,7 +42,7 @@
           <p class="col-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere sed eros at aliquam. Nullam vitae dolor posuere justo interdum rutrum nec ac purus. Suspendisse pulvinar a lacus vulputate bibendum. Morbi erat quam, consectetur eu scelerisque venenatis, hendrerit ut odio. Aenean tincidunt erat risus, sed malesuada velit feugiat ullamcorper. Duis tristique faucibus vulputate. Nulla pulvinar tempus mauris, non placerat risus rhoncus vitae. Duis non orci ac nulla egestas porta. Nulla hendrerit tortor sed eros tincidunt, sit amet dignissim metus congue. Maecenas pretium et leo vel volutpat.</p>
         </div>
 
-        <section class="contenaire-fluid" id="avis">
+        <section id="avis">
     			<div class="row">
     				
     				<div class="col-12 col-md-6 avisClient text-center d-flex flex-column justify-content-center">
@@ -55,8 +55,8 @@
     			</div>
     	</section>
 
-        <div class="wrapper-img-pres row justify-content-center">
-          <img class="illustration2 mb-3" src="../assets/salmon-1238248_1920.jpg" alt="">
+        <div class="wrapper-img-pres container-fluid row justify-content-center">
+          <img class="illustration2" src="../assets/salmon-1238248_1920.jpg" alt="">
         </div>
 
         <div class="container-fluid row justify-content-center">
