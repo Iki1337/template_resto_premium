@@ -119,6 +119,7 @@
   transition: 0.6s;
   box-shadow: 0px 3px 20px 5px;
   z-index: 1000;
+  height: initial;
 }
 
 .illustration2:hover{
