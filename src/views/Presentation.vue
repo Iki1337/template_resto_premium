@@ -34,8 +34,8 @@
           <h3>In duis ipsum reprehenderit enim occaecat consectetur.</h3>
         </div>
 
-        <div class="container-fluid row justify-content-center">
-          <img class="illustration2 mb-3" src="../assets/bg_home.jpg" alt="">
+        <div class="wrapper-img-pres">
+          <img class="illustration2" src="../assets/bg_home.jpg" alt="">
         </div>
 
         <div class="container-fluid row justify-content-center">
@@ -55,7 +55,7 @@
     			</div>
     	</section>
 
-        <div class="wrapper-img-pres container-fluid row justify-content-center">
+        <div class="wrapper-img-pres">
           <img class="illustration2" src="../assets/salmon-1238248_1920.jpg" alt="">
         </div>
 
@@ -113,6 +113,12 @@
 	color:#888;
 }
 
+.wrapper-img-pres{
+  width: 100%;
+  text-align: center;
+  margin : 25px 0 25px 0;
+}
+
 .illustration2{
   border: solid rgba(255,255,255,1.00) 5px;
   border-radius: 6px;
@@ -120,8 +126,6 @@
   box-shadow: 0px 3px 20px 5px;
   z-index: 1000;
   width: 40%;
-  height: auto;
-  display: block;
 }
 
 .illustration2:hover{
