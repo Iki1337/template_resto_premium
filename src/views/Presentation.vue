@@ -55,7 +55,7 @@
     			</div>
     	</section>
 
-        <div class="wrapper-img-pres">
+        <div class="wrapper-img-pres row justify-content-center">
           <img class="illustration2 mb-3" src="../assets/salmon-1238248_1920.jpg" alt="">
         </div>
 
