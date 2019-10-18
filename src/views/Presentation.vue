@@ -35,7 +35,7 @@
         </div>
 
         <div class="container-fluid row justify-content-center">
-          <img class="illustration2 mb-3" src="../assets/bg_home.jpg" width="300px" alt="">
+          <img class="illustration2 mb-3" src="../assets/bg_home.jpg" width="40%" alt="">
         </div>
 
         <div class="container-fluid row justify-content-center">
@@ -56,7 +56,7 @@
     	</section>
 
         <div class="container-fluid row justify-content-around pt-4">
-          <img class="illustration2 mb-3" src="../assets/salmon-1238248_1920.jpg" width="300px" alt="">
+          <img class="illustration2 mb-3" src="../assets/salmon-1238248_1920.jpg" width="40%" alt="">
         </div>
 
         <div class="container-fluid row justify-content-center">
