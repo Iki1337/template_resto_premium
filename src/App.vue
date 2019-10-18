@@ -35,7 +35,7 @@
         <aside class="col-12 col-lg-3 text-center mb-2">
           <h5>Adresse</h5>
           <p>3 bis, Route de Lorem Ipsum <br>
-            14400 Caen <br>
+            14000 Caen <br>
             ©Copyright 2020 OrdiBessin</p>
         </aside>
 

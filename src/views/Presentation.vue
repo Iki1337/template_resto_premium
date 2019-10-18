@@ -55,7 +55,7 @@
     			</div>
     	</section>
 
-        <div class="container-fluid row justify-content-around pt-4">
+        <div class="wrapper-img-pres">
           <img class="illustration2 mb-3" src="../assets/salmon-1238248_1920.jpg" alt="">
         </div>
 
