@@ -121,6 +121,7 @@
   overflow: hidden;
   border: solid rgb(180, 177, 177) 2px!important;
   border-radius: 20px!important;
+  display: inline-block!important;
 }
 
 .masonry-menu .item img{
