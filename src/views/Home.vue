@@ -101,6 +101,12 @@
     width: 26%;
   }
 
+  @media only screen and (max-width: 610px){
+    .home h1 {
+      font-size: 100px;
+    }
+  }
+
   /* Bouton scroll */
 
   .icon-scroll, .icon-scroll:before{
