@@ -33,7 +33,7 @@
             <img :src="entree.image" class="card-img-top" alt="...">
             <div class="card-img-overlay">
               <h5 class="card-title">{{entree.name}}</h5>
-              <p>{{entree.description}}</p>
+              <p class="descriptionMenu">{{entree.description}}</p>
               <p>{{entree.prix}}</p>
             </div>
           </div>
@@ -46,7 +46,7 @@
             <img :src="plat.image" class="card-img-top" alt="...">
             <div class="card-img-overlay">
               <h5 class="card-title">{{plat.name}}</h5>
-              <p>{{plat.description}}</p>
+              <p class="descriptionMenu">{{plat.description}}</p>
               <p>{{plat.prix}}</p>
             </div>
           </div>
@@ -59,7 +59,7 @@
             <img :src="dessert.image" class="card-img-top" alt="...">
             <div class="card-img-overlay">
               <h5 class="card-title">{{dessert.name}}</h5>
-              <p>{{dessert.description}}</p>
+              <p class="descriptionMenu">{{dessert.description}}</p>
               <p>{{dessert.prix}}</p>
             </div>
           </div>
@@ -85,6 +85,12 @@
 
 .substitution img{
   height: 30vh;
+}
+
+@media only screen and (max-width: 410px) {
+  .descriptionMenu {
+    display: none;
+  }
 }
 
 /* Masonry */
