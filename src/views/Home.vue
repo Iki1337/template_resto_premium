@@ -54,7 +54,7 @@
           <div class=" container">
 
             <div class="col-12">
-              <img class="illustration" src="../assets/bg_home.jpg" width="300px" alt="">
+              <img class="illustration" src="../assets/bg_home.jpg" width="30%" alt="">
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut posuere sed eros at aliquam. Donec interdum libero sit amet diam lobortis fringilla quis id tellus. In lobortis elit a justo sodales, nec congue ligula pretium. Nunc eget tincidunt nisl. Vestibulum sit amet elit dapibus, dictum mauris eget, vehicula odio. Nullam vitae dolor posuere justo interdum rutrum nec ac purus. Suspendisse pulvinar a lacus vulputate bibendum. Morbi erat quam, consectetur eu scelerisque venenatis, hendrerit ut odio. Aenean tincidunt erat risus, sed malesuada velit feugiat ullamcorper. Duis tristique faucibus vulputate. Nulla pulvinar tempus mauris, non placerat risus rhoncus vitae. Duis non orci ac nulla egestas porta. Nulla hendrerit tortor sed eros tincidunt, sit amet dignissim metus congue. Maecenas pretium et leo vel volutpat.</p>
               <p>Etiam eget dui at ipsum eleifend iaculis. Maecenas tincidunt justo a erat dignissim lacinia. Mauris feugiat libero aliquam interdum bibendum. Etiam viverra magna sed metus venenatis accumsan. Aenean maximus elit eleifend, viverra tellus eu, convallis ante. In quam quam, vehicula scelerisque lacinia in, elementum a erat. Suspendisse potenti. Phasellus eros tortor, pulvinar et sapien ac, volutpat euismod diam. Aliquam mauris nisi, varius ut nisi in, maximus lobortis lectus. </p>
             </div>
@@ -85,7 +85,7 @@
 
   .top{
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
     }
 
   .top h1{
@@ -182,6 +182,13 @@
 .illustration:hover{
   transform:scale(1.3);
 }
+
+@media only screen and (max-width: 768px){
+    .home .illustration {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  }
   
 </style>
 
